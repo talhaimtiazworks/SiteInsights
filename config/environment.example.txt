@@ -1,0 +1,184 @@
+# SiteInsights — AI-Powered Website Auditing. A TalhaImtiazWorks Product.
+# Intended domain: https://siteinsight.xyz (not verified live by this package).
+# Copy to .env.local for local development. In production (Vercel), set these in
+# Project → Settings → Environment Variables instead. NEVER commit real values.
+# The app starts with none of these set. In PRODUCTION a database URL is required
+# for audits (the app shows a setup error instead of silently losing data), and the
+# Supabase variables are mandatory for ALL audits. Full guide: docs/SUPABASE.md
+
+# ---------------------------------------------------------------- App
+# Leave empty locally to use the current request origin.
+# Intended production value AFTER DNS/HTTPS/Vercel/Supabase testing: https://siteinsight.xyz
+# During the transition, retain the existing working production origin; see docs/REBRAND.md.
+NEXT_PUBLIC_APP_URL=
+# Long random string used for fair-use IP hashing and signed OAuth provider provenance (e.g. `openssl rand -hex 32`). Without 32+ random bytes, avatars safely use the default.
+SESSION_SECRET=
+# Optional public contact address shown on /contact
+NEXT_PUBLIC_CONTACT_EMAIL=
+# Origins allowed to embed the app in an iframe (CSP frame-ancestors). Default: 'self'
+FRAME_ANCESTORS=
+
+# ---------------------------------------------------------------- Supabase (accounts)
+# Supabase -> Settings -> API Keys (or the "Connect" dialog). The Supabase <-> Vercel
+# integration sets these automatically. Legacy names also accepted:
+# NEXT_PUBLIC_SUPABASE_ANON_KEY / SUPABASE_ANON_KEY and SUPABASE_SERVICE_ROLE_KEY.
+# Project URL, e.g. https://your-project-ref.supabase.co  (empty = accounts disabled)
+NEXT_PUBLIC_SUPABASE_URL=
+# Publishable key, e.g. sb_publishable_...  Public by design; data is protected by RLS.
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
+# Secret key (sb_secret_...). SERVER ONLY, never NEXT_PUBLIC_. Used only for account deletion.
+SUPABASE_SECRET_KEY=
+# Deprecated compatibility value. Always false in application policy, even if changed to true.
+# EVERY audit requires verified Supabase sign-in; no anonymous/free-scan exception.
+ANONYMOUS_AUDITS_ENABLED=false
+
+# ---------------------------------------------------------------- Database
+# Required in production. Use the POOLED URL (Supabase transaction pooler, port 6543).
+# If DATABASE_URL is empty, POSTGRES_URL (set by the Supabase <-> Vercel integration) is used.
+# Without either: local development uses temporary in-memory storage; production returns
+# 503 "storage_not_configured" (memory storage is never used on Vercel/serverless).
+DATABASE_URL=
+# POSTGRES_URL=
+# Migrations (npm run db:migrate) prefer a direct/session connection:
+# POSTGRES_URL_NON_POOLING=
+# Self-hosted single-process servers only: allow temporary memory storage in production.
+# Ignored on serverless hosting. Default: true in development, false in production.
+ALLOW_MEMORY_STORAGE=
+# require | prefer | disable  (auto-detected when empty)
+DATABASE_SSL=
+# Apply migrations automatically on first connection (true/false)
+DB_AUTO_MIGRATE=true
+
+# ---------------------------------------------------------------- Background processing
+# >= 16 random characters (openssl rand -hex 32). Lets audits finish without an open tab on
+# Vercel (background hand-off + daily cron in vercel.json). Server-side only.
+CRON_SECRET=
+# Work per background invocation (ms)
+BACKGROUND_BUDGET_MS=50000
+# false = audits only advance while their page is open
+BACKGROUND_PROCESSING=true
+# Only if Vercel Deployment Protection covers production (Settings -> Deployment Protection)
+VERCEL_AUTOMATION_BYPASS_SECRET=
+
+# ---------------------------------------------------------------- AI providers (strict BYOK)
+# SiteInsights never holds an AI key of its own: every user connects their own
+# OpenRouter or Google Gemini key on the AI settings page, and it stays in their
+# browser's memory only. There is no OPENROUTER_API_KEY / GEMINI_API_KEY here —
+# setting them has no effect (a startup warning asks you to remove them).
+# Only the default model names and budgets are configured below:
+OPENROUTER_MODEL=openrouter/auto
+GEMINI_MODEL=gemini-flash-latest
+AI_TIMEOUT_MS=45000
+AI_MAX_RETRIES=1
+AI_MAX_OUTPUT_TOKENS=2000
+
+# ---------------------------------------------------------------- Browser worker (optional)
+# JavaScript rendering, mobile checks and axe-core accessibility tests run in a SEPARATE
+# service (see worker/ and docs/DEPLOYMENT.md). Without it, audits use the HTML crawler only.
+BROWSER_WORKER_URL=
+# Shared secret, at least 24 characters; must equal WORKER_TOKEN on the worker. Server-side only.
+BROWSER_WORKER_TOKEN=
+# Pages rendered per audit (0-25)
+BROWSER_MAX_PAGES=5
+BROWSER_NAV_TIMEOUT_MS=20000
+BROWSER_WORKER_TIMEOUT_MS=45000
+BROWSER_ACCESSIBILITY_ENABLED=true
+
+# ---------------------------------------------------------------- Performance (optional)
+# Google PageSpeed Insights API (Lighthouse lab data + Chrome UX Report field data).
+# Independent of the AI providers. Enabled automatically when a key is set.
+PAGESPEED_API_KEY=
+# true/false; defaults to true when PAGESPEED_API_KEY is set
+PAGESPEED_ENABLED=
+# mobile, desktop or mobile,desktop (each strategy is one test)
+PAGESPEED_STRATEGIES=mobile,desktop
+PAGESPEED_TIMEOUT_MS=60000
+
+# ---------------------------------------------------------------- Scanner limits
+SCAN_MAX_PAGES=25
+SCAN_MAX_DEPTH=3
+SCAN_MAX_LINKS_TO_CHECK=150
+SCAN_MAX_REDIRECTS=5
+SCAN_CONCURRENCY=4
+SCAN_REQUEST_TIMEOUT_MS=8000
+SCAN_MAX_BODY_BYTES=2000000
+SCAN_MAX_DURATION_MS=180000
+SCAN_MAX_RETRIES=1
+SCAN_HOST_MIN_INTERVAL_MS=250
+SCAN_STEP_BUDGET_MS=20000
+SCAN_ALLOWED_PORTS=80,443,8080,8443
+SCAN_MAX_QUERY_VARIANTS=3
+SCAN_MAX_SITEMAP_FILES=4
+SCAN_MAX_SITEMAP_URLS=500
+# SCAN_USER_AGENT=
+
+# ---------------------------------------------------------------- Free plan / fair use
+FREE_SCANS_PER_WINDOW=10
+FREE_SCAN_WINDOW_SECONDS=86400
+FREE_AI_REQUESTS_PER_WINDOW=30
+FREE_AI_WINDOW_SECONDS=86400
+FREE_MAX_AI_INPUT_CHARS=12000
+FREE_MAX_CONCURRENT_SCANS=1
+# Legacy anonymous retention compatibility / active signed-in account retention
+FREE_HISTORY_LIMIT=20
+FREE_ACCOUNT_HISTORY_LIMIT=100
+# Short-term burst caps
+AUDIT_BURST_LIMIT=5
+AUDIT_BURST_WINDOW_SECONDS=600
+AI_BURST_LIMIT=10
+AI_BURST_WINDOW_SECONDS=60
+FREE_IP_LIMIT_MULTIPLIER=3
+# Costlier checks share one rolling window
+FREE_ADVANCED_WINDOW_SECONDS=86400
+FREE_BROWSER_PAGES_PER_WINDOW=30
+FREE_ACCESSIBILITY_TESTS_PER_WINDOW=30
+FREE_PERFORMANCE_TESTS_PER_WINDOW=10
+FREE_PDF_EXPORTS_PER_WINDOW=20
+GLOBAL_MAX_CONCURRENT_SCANS=25
+API_RATE_LIMIT_PER_MINUTE=120
+
+# ---------------------------------------------------------------- Mailjet SMTP (explicit operator tools ONLY)
+# These six variables are read by scripts/email/check-smtp.mjs and the optional
+# Supabase setup command, NOT by a Next.js authentication sender. No public SMTP endpoint.
+# Do NOT create unused Vercel variables merely for Auth: configure custom SMTP separately
+# in the existing Supabase project. Optional private operator env only (docs/MAILJET-SMTP.md).
+# Never expose either key via NEXT_PUBLIC_, commit secrets, or use an account login password.
+SMTP_HOST=in-v3.mailjet.com
+SMTP_PORT=587
+SMTP_SECURE=false
+# Mailjet API key (SMTP username, NOT an email address). Keep private.
+SMTP_USER=
+# Paired Mailjet Secret Key (SMTP password). Copy exactly; no whitespace normalization.
+SMTP_PASS=
+# One bare Mailjet-verified sender address, chosen by the operator; independent of API key.
+# The display name stays SiteInsight. Verification/ownership must be completed in Mailjet.
+EMAIL_FROM=
+# 587/false requires STARTTLS + certificate validation. Alternative: 465/true implicit TLS.
+# No TLS-off mode, certificate bypass, arbitrary SMTP host or automatic resend.
+
+# ---------------------------------------------------------------- Supabase Auth setup script (optional, operator-only)
+# NOT app variables: don't add a Management API token to Vercel.
+# Only read by `node scripts/supabase/configure-auth.mjs` when explicitly invoked.
+# Use a private operator shell/local env file. No automatic cloud configuration.
+# See docs/MAILJET-SMTP.md for dry-run / --smtp --apply and separate setup requirements.
+# SUPABASE_ACCESS_TOKEN=          # optional Management API PAT, not a Mailjet/DB/Auth key
+# SUPABASE_PROJECT_REF=           # existing 20-character project ref; no new project/database
+
+# ---------------------------------------------------------------- Plans, credits and billing (optional)
+# The Paddle adapter is built in but inactive: paid checkout shows "Payments coming soon" until
+# BILLING_PROVIDER=paddle AND all five variables below are set (docs/BILLING.md -> "Payments with Paddle").
+# Pro/Business can also be granted manually with scripts/billing/manage-subscription.mjs.
+# Keep all Paddle credentials server-only, never NEXT_PUBLIC_.
+# BILLING_PROVIDER=
+# PADDLE_ENV=                          # sandbox (default) or production
+# PADDLE_API_KEY=                      # pdl_sdbx_apikey_... (sandbox) / pdl_live_apikey_... (live)
+# PADDLE_NOTIFICATION_WEBHOOK_SECRET=  # pdl_ntfset_... (secret of YOUR notification destination)
+# PADDLE_PRICE_PRO=                    # pri_... (Paddle price id for the Pro plan)
+# PADDLE_PRICE_BUSINESS=               # pri_... (Paddle price id for the Business plan)
+# Plan limits and credit costs default to the published plans; override only if needed.
+# PLAN_PRO_MAX_PAGES=150
+# PLAN_BUSINESS_MAX_PAGES=500
+# CREDIT_COST_AUDIT_START=10
+# CREDIT_COST_PAGE=1
+# SCAN_HARD_MAX_PAGES=500
+

@@ -1,0 +1,20 @@
+SiteInsights
+
+CONFIRM YOUR EMAIL CHANGE
+
+Someone (hopefully you) asked to change the email address of a SiteInsights account from {{ .Email }} to {{ .NewEmail }}.
+
+Confirm to complete the change. Depending on your security settings, a confirmation may also be sent to the other address.
+
+Confirm email change:
+{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email_change&next={{ .RedirectTo }}
+
+Security note: If you didn't request this change, don't click the button and reset your password right away. SiteInsights will never ask for your password by email.
+
+—
+SiteInsights · AI-Powered Website Auditing
+A TalhaImtiazWorks Product
+Find website issues. Understand them. Fix them.
+© 2026 TalhaImtiazWorks. SiteInsights is a TalhaImtiazWorks product.
+{{ .SiteURL }}
+You received this email because of an action on your SiteInsights account.

@@ -1,0 +1,317 @@
+{
+  "results": [
+    {
+      "theme": "light",
+      "route": "/",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/about",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/help",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/contact",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/privacy",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/terms",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/usage",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/sign-in",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/sign-up",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/forgot-password",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/auth/confirm",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "light",
+      "route": "/not-a-real-page",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/about",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/help",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/contact",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/privacy",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/terms",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/usage",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/sign-in",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/sign-up",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/forgot-password",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/auth/confirm",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "theme": "dark",
+      "route": "/not-a-real-page",
+      "violations": [],
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "route": "/sign-in",
+      "width": 320,
+      "overflow": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "route": "/sign-up",
+      "width": 320,
+      "overflow": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "route": "/help",
+      "width": 320,
+      "overflow": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "overflow": {
+        "width": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "route": "/sign-in",
+      "width": 375,
+      "overflow": {
+        "width": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "route": "/sign-up",
+      "width": 375,
+      "overflow": {
+        "width": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "route": "/help",
+      "width": 375,
+      "overflow": {
+        "width": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "route": "/sign-in",
+      "width": 768,
+      "overflow": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "route": "/sign-up",
+      "width": 768,
+      "overflow": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "route": "/help",
+      "width": 768,
+      "overflow": {
+        "width": 768,
+        "scroll": 768
+      }
+    }
+  ],
+  "errors": []
+}

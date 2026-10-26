@@ -1,0 +1,104 @@
+{
+  "purpose": "Product typefaces (OFL). Web: subset variable WOFF2. PDF: static subset TrueType instances.",
+  "fonts": [
+    {
+      "file": "src/app/fonts/BricolageGrotesque.woff2",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/BricolageGrotesque%5Bopsz,wdth,wght%5D.ttf",
+      "sourceSHA256": "413e7357809ddd12fd80a96a8a396de0e401638d4acd3cb3e37532f0472ac682",
+      "axes": {
+        "opsz": [
+          12,
+          96
+        ],
+        "wdth": 100,
+        "wght": [
+          400,
+          800
+        ]
+      },
+      "sha256": "bd8b0b04a6b7f873f38b354f80958e37667ab20443dd0ff550f30e2a792ddab2",
+      "license": "BricolageGrotesque-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/OFL.txt"
+    },
+    {
+      "file": "scripts/brand/fonts/ui/BricolageGrotesque-SemiBold.ttf",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/BricolageGrotesque%5Bopsz,wdth,wght%5D.ttf",
+      "sourceSHA256": "413e7357809ddd12fd80a96a8a396de0e401638d4acd3cb3e37532f0472ac682",
+      "axes": {
+        "opsz": 36,
+        "wdth": 100,
+        "wght": 600
+      },
+      "sha256": "12ebac8ea6b2594fc0f250bc11e1422dd971bd11916db31d369f83317dad86b0",
+      "license": "BricolageGrotesque-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/OFL.txt"
+    },
+    {
+      "file": "src/app/fonts/Inter.woff2",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf",
+      "sourceSHA256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "axes": {
+        "opsz": [
+          14,
+          32
+        ],
+        "wght": [
+          400,
+          700
+        ]
+      },
+      "sha256": "6857ce3c6bf2e404e585d4fbc19e76acb8bbc05327c0a97d66f700aec90d5db0",
+      "license": "Inter-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt"
+    },
+    {
+      "file": "scripts/brand/fonts/ui/Inter-Regular.ttf",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf",
+      "sourceSHA256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "axes": {
+        "opsz": 14,
+        "wght": 400
+      },
+      "sha256": "91b068d72b827434217c28e6cb19ee0a85d89975e4598074bdc6ed3622ad5682",
+      "license": "Inter-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt"
+    },
+    {
+      "file": "scripts/brand/fonts/ui/Inter-SemiBold.ttf",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf",
+      "sourceSHA256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "axes": {
+        "opsz": 14,
+        "wght": 600
+      },
+      "sha256": "3bddfe53fe18358acd7b2f07ac4ccbff177567aa9d122f53c5caaf20508744e4",
+      "license": "Inter-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt"
+    },
+    {
+      "file": "src/app/fonts/JetBrainsMono.woff2",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono%5Bwght%5D.ttf",
+      "sourceSHA256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda",
+      "axes": {
+        "wght": [
+          400,
+          600
+        ]
+      },
+      "sha256": "baba1ef50652e477b425c8c02eef480ce89fd7cb84ded8154ab1bbad9e384ebd",
+      "license": "JetBrainsMono-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/OFL.txt"
+    },
+    {
+      "file": "scripts/brand/fonts/ui/JetBrainsMono-Regular.ttf",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono%5Bwght%5D.ttf",
+      "sourceSHA256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda",
+      "axes": {
+        "wght": 400
+      },
+      "sha256": "f564fc91f6e419c1e4463173b9ba46d3b8cf5b66c744c2449dd8c33576dddfd6",
+      "license": "JetBrainsMono-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/OFL.txt"
+    }
+  ]
+}

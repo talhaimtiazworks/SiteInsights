@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-18",
+  "baseline": "d5ff08970eea1d23d976d163b6149ff050a8dfc6",
+  "rootWithActualLocalServices": {
+    "passed": 699,
+    "skipped": 13,
+    "passedFiles": 36,
+    "durationSeconds": 109.2,
+    "realAuthPostgresRlsPassesIncluded": 33
+  },
+  "checks": {
+    "rootTypeScript": "passed",
+    "eslint": "passed",
+    "workerTypeScript": "passed",
+    "brandTokensAndAssets": "passed",
+    "productionBuild": "passed",
+    "smtpCanaryCheckedFiles": 1593,
+    "smtpCanaryMatches": 0
+  },
+  "browsers": {
+    "publicLayoutVisits": 36,
+    "publicAxeVisits": 24,
+    "authenticatedLayoutAndAxeVisits": 57,
+    "detectedViolations": 0,
+    "pageOverflow": 0,
+    "runtimeErrors": 0,
+    "mainStepsIncludingCleanup": 13,
+    "additionalLoadingKeyboardStepsIncludingCleanup": 6
+  },
+  "zipFreshValidation": "Recorded after packaging in external SiteInsights-Release-Validation.json; not preclaimed here",
+  "limitations": [
+    "No hosted deployment or external inbox delivery verified",
+    "Real third-party OAuth/SAML/AI/PageSpeed credentials not verified",
+    "Optional special database fixtures not configured",
+    "Automated accessibility is not certification",
+    "Unicode rendering validated for specified fixtures, not universal language coverage"
+  ]
+}

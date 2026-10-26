@@ -1,0 +1,16 @@
+{
+  "appUrl": "{{ .SiteURL }}",
+  "year": 2026,
+  "subjects": {
+    "confirmation": "Confirm your email for SiteInsights",
+    "recovery": "Reset your SiteInsights password",
+    "email_change": "Confirm your new SiteInsights email address",
+    "magic_link": "Your SiteInsights sign-in link",
+    "invite": "You've been invited to SiteInsights",
+    "reauthentication": "Your SiteInsights verification code",
+    "password_changed_notification": "Your SiteInsights password was changed",
+    "email_changed_notification": "Your SiteInsights email address was changed",
+    "identity_linked_notification": "A sign-in method was connected to SiteInsights",
+    "identity_unlinked_notification": "A sign-in method was removed from SiteInsights"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "name": "real history loading ends in the actual empty account state",
+      "ok": true
+    },
+    {
+      "name": "real dashboard pending data has branded feedback and clean completion",
+      "ok": true
+    },
+    {
+      "name": "real report loading clears into an honest server 404 error",
+      "ok": true
+    },
+    {
+      "name": "keyboard skip link has visible focus and mobile navigation works without a mouse",
+      "ok": true
+    },
+    {
+      "name": "genuinely pending route navigation shows feedback and clears on arrival",
+      "ok": true
+    },
+    {
+      "name": "delete isolated loading test account",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

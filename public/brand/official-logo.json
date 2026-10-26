@@ -1,0 +1,14 @@
+{
+  "source": "User-supplied download.png",
+  "file": "talhaimtiazworks-logo.png",
+  "width": 1141,
+  "height": 1141,
+  "mode": "RGBA",
+  "aspectRatio": "1:1",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "originalSHA256": "ad7e9c8c39e925449fff71b57e7efe89244a8a7ec9da20aa2aada1e24b5b8c50",
+  "artworkPolicy": "Original PNG preserved byte-for-byte. Derivatives resize the entire canvas, preserving proportions, alpha and colors. No cropping, recoloring, filters or replacement artwork."
+}

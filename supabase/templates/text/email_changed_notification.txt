@@ -1,0 +1,15 @@
+SiteInsights
+
+YOUR EMAIL ADDRESS WAS CHANGED
+
+The email address for your SiteInsights account was changed from {{ .OldEmail }} to {{ .Email }}.
+
+Security note: If you didn't make this change, reset your password and review your connected sign-in methods. SiteInsights will never ask for your password by email.
+
+—
+SiteInsights · AI-Powered Website Auditing
+A TalhaImtiazWorks Product
+Find website issues. Understand them. Fix them.
+© 2026 TalhaImtiazWorks. SiteInsights is a TalhaImtiazWorks product.
+{{ .SiteURL }}
+You received this email because of an action on your SiteInsights account.

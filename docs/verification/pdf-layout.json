@@ -1,0 +1,86 @@
+{
+  "SiteInsights-real-audit-report.pdf": {
+    "source": "actual authenticated API download",
+    "sha256": "663ad13ebb175b5e703e141b6b423f117dd02cda4d62fd98e661f5fb8a8fda7c",
+    "bytes": 298519,
+    "pages": 3,
+    "numberingOnEveryPage": true,
+    "officialImageOnEveryPage": true,
+    "official640DerivativePixelsAndAlphaExact": true,
+    "logoAspectRatios": [
+      1.0
+    ],
+    "attachedFindings": 7,
+    "missingFindingTitlesOrFixtureIdentifiers": [],
+    "blankPages": [],
+    "outOfPageSpans": [],
+    "unsupportedMarkers": [],
+    "japaneseTextExtracted": false,
+    "chineseTextExtracted": false,
+    "koreanTextExtracted": false,
+    "renderWarnings": ""
+  },
+  "actual-data-report.pdf": {
+    "source": "actual saved audit data through real generator",
+    "sha256": "924a5ba1f9c8b1102fba84ec64411f909856224974029a19a0ffece6be3ebfd1",
+    "bytes": 298393,
+    "pages": 3,
+    "numberingOnEveryPage": true,
+    "officialImageOnEveryPage": true,
+    "official640DerivativePixelsAndAlphaExact": true,
+    "logoAspectRatios": [
+      1.0
+    ],
+    "attachedFindings": 7,
+    "missingFindingTitlesOrFixtureIdentifiers": [],
+    "blankPages": [],
+    "outOfPageSpans": [],
+    "unsupportedMarkers": [],
+    "japaneseTextExtracted": false,
+    "chineseTextExtracted": false,
+    "koreanTextExtracted": false,
+    "renderWarnings": ""
+  },
+  "synthetic-pagination-unicode-fixture.pdf": {
+    "source": "explicitly labelled synthetic layout/font fixture; not website findings",
+    "sha256": "3a0d63115edf9f475c2774810de7b6f5ac2f4dbeb51e2c76b068c99947260d9b",
+    "bytes": 4077507,
+    "pages": 14,
+    "numberingOnEveryPage": true,
+    "officialImageOnEveryPage": true,
+    "official640DerivativePixelsAndAlphaExact": true,
+    "logoAspectRatios": [
+      1.0
+    ],
+    "attachedFindings": 16,
+    "missingFindingTitlesOrFixtureIdentifiers": [],
+    "blankPages": [],
+    "outOfPageSpans": [],
+    "unsupportedMarkers": [],
+    "japaneseTextExtracted": true,
+    "chineseTextExtracted": true,
+    "koreanTextExtracted": true,
+    "renderWarnings": ""
+  },
+  "synthetic-cjk-font-fixture.pdf": {
+    "source": "explicitly labelled synthetic layout/font fixture; not website findings",
+    "sha256": "1161fbd438cc3fbbde2b2899e3e7d5f01f895f21eeb153ec21e2e145a6bdc7f6",
+    "bytes": 7401171,
+    "pages": 14,
+    "numberingOnEveryPage": true,
+    "officialImageOnEveryPage": true,
+    "official640DerivativePixelsAndAlphaExact": true,
+    "logoAspectRatios": [
+      1.0
+    ],
+    "attachedFindings": 16,
+    "missingFindingTitlesOrFixtureIdentifiers": [],
+    "blankPages": [],
+    "outOfPageSpans": [],
+    "unsupportedMarkers": [],
+    "japaneseTextExtracted": true,
+    "chineseTextExtracted": true,
+    "koreanTextExtracted": false,
+    "renderWarnings": ""
+  }
+}

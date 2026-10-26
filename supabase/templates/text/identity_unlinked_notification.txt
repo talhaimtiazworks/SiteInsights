@@ -1,0 +1,18 @@
+SiteInsights
+
+SIGN-IN METHOD REMOVED
+
+Your {{ .Provider }} account can no longer be used to sign in to SiteInsights as {{ .Email }}.
+
+Manage sign-in methods:
+{{ .SiteURL }}/account/connections
+
+Security note: If you didn't make this change, review your account security right away. SiteInsights will never ask for your password by email.
+
+—
+SiteInsights · AI-Powered Website Auditing
+A TalhaImtiazWorks Product
+Find website issues. Understand them. Fix them.
+© 2026 TalhaImtiazWorks. SiteInsights is a TalhaImtiazWorks product.
+{{ .SiteURL }}
+You received this email because of an action on your SiteInsights account.

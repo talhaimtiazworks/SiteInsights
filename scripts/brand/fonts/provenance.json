@@ -1,0 +1,50 @@
+{
+  "purpose": "Static regular TrueType PDF fallbacks; OFL licenses accompany every font.",
+  "fonts": [
+    {
+      "file": "NotoSansArabic.ttf",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansarabic/NotoSansArabic%5Bwdth,wght%5D.ttf",
+      "sourceSHA256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+      "axes": {
+        "wght": 400,
+        "wdth": 100.0
+      },
+      "staticSHA256": "532c42710b09b65432fb2b1dd8ffb5f13fde881233f70ffc18fe0921455ba3a3",
+      "license": "NotoSansArabic-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansarabic/OFL.txt"
+    },
+    {
+      "file": "NotoEmoji.ttf",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoemoji/NotoEmoji%5Bwght%5D.ttf",
+      "sourceSHA256": "de6c18832938afc99caf132b39d6a30a19bac7f2e812e28db2535b4608d27551",
+      "axes": {
+        "wght": 400
+      },
+      "staticSHA256": "aa131ab0c5e054be6588145021d4df27a92b2f24f80e8629357f69f7ce9b650c",
+      "license": "Noto-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoemoji/OFL.txt"
+    },
+    {
+      "file": "NotoSansSC.ttf",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+      "sourceSHA256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "axes": {
+        "wght": 400
+      },
+      "staticSHA256": "84cfcb19a289336e394b9491090614def83e17f67480d54f3c0067059248adca",
+      "license": "NotoSansSC-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt"
+    },
+    {
+      "file": "NotoSansKR.ttf",
+      "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf",
+      "sourceSHA256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+      "axes": {
+        "wght": 400
+      },
+      "staticSHA256": "a226e8b4d50f42359cdf79c1e17817e6977aa661c3428df81df08186a522cf93",
+      "license": "NotoSansKR-OFL.txt",
+      "licenseURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/OFL.txt"
+    }
+  ]
+}

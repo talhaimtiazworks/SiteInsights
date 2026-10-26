@@ -1,0 +1,18 @@
+SiteInsights
+
+CONFIRM YOUR EMAIL ADDRESS
+
+Welcome to SiteInsights! Confirm that this is your email address to activate your account and start auditing websites.
+
+Confirm email address:
+{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email&next={{ .RedirectTo }}
+
+Security note: If you didn't create a SiteInsights account, you can safely ignore this email — no account will be activated. SiteInsights will never ask for your password by email.
+
+—
+SiteInsights · AI-Powered Website Auditing
+A TalhaImtiazWorks Product
+Find website issues. Understand them. Fix them.
+© 2026 TalhaImtiazWorks. SiteInsights is a TalhaImtiazWorks product.
+{{ .SiteURL }}
+You received this email because of an action on your SiteInsights account.

@@ -1,0 +1,18 @@
+SiteInsights
+
+CONFIRM IT'S YOU
+
+Enter this code in SiteInsights to confirm a sensitive change to your account. It expires shortly.
+
+Your code:
+{{ .Token }}
+
+Security note: If you didn't request this code, someone may know your password — change it now. SiteInsights will never ask for your password by email.
+
+—
+SiteInsights · AI-Powered Website Auditing
+A TalhaImtiazWorks Product
+Find website issues. Understand them. Fix them.
+© 2026 TalhaImtiazWorks. SiteInsights is a TalhaImtiazWorks product.
+{{ .SiteURL }}
+You received this email because of an action on your SiteInsights account.

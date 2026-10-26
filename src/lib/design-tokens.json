@@ -1,0 +1,38 @@
+{
+  "colors": {
+    "primary": "#0E436B",
+    "primaryHover": "#0A3454",
+    "accent": "#F4B43B",
+    "accentSoft": "#FDF1D8",
+    "yellow": "#F4B43B",
+    "amber": "#C98A12",
+    "orange": "#B8621B",
+    "navy": "#0E436B",
+    "ivory": "#F5F7F9",
+    "white": "#FFFFFF",
+    "text": "#1B2631",
+    "secondary": "#3D4A57",
+    "muted": "#56636F",
+    "border": "#D9E0E6",
+    "charcoal": "#1B2631",
+    "champagne": "#EEF2F5",
+    "blueSoft": "#E6EEF5",
+    "success": "#1D6B48",
+    "successSoft": "#E7F3EC",
+    "warning": "#7E4E00",
+    "warningSoft": "#FDF1D8",
+    "danger": "#B42318",
+    "dangerSoft": "#FCEBE9",
+    "info": "#0E436B",
+    "infoSoft": "#E6EEF5"
+  },
+  "themes": {
+    "light": {
+      "background": "white", "foreground": "text", "card": "white", "muted": "champagne",
+      "secondary": "secondary", "muted-foreground": "muted", "border": "border", "ring": "primary",
+      "primary": "primary", "primary-foreground": "white", "accent": "accent",
+      "success": "success", "success-soft": "successSoft", "warning": "warning", "warning-soft": "warningSoft",
+      "danger": "danger", "danger-soft": "dangerSoft", "info": "info", "info-soft": "infoSoft"
+    }
+  }
+}

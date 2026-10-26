@@ -1,0 +1,18 @@
+SiteInsights
+
+YOU'RE INVITED
+
+You've been invited to create a SiteInsights account for {{ .Email }}. Accept the invitation to set up your account.
+
+Accept invitation:
+{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=invite&next={{ .RedirectTo }}
+
+Security note: If you weren't expecting this invitation, you can ignore this email. SiteInsights will never ask for your password by email.
+
+—
+SiteInsights · AI-Powered Website Auditing
+A TalhaImtiazWorks Product
+Find website issues. Understand them. Fix them.
+© 2026 TalhaImtiazWorks. SiteInsights is a TalhaImtiazWorks product.
+{{ .SiteURL }}
+You received this email because of an action on your SiteInsights account.

@@ -1,0 +1,25 @@
+{
+  "client": {
+    "filesScanned": 43,
+    "literalCredentialOrCanaryHits": []
+  },
+  "server": {
+    "filesScanned": 1550,
+    "literalCredentialOrCanaryHits": []
+  },
+  "pdfTracing": {
+    "entries": 149,
+    "fontsAndLicenses": [
+      "../../../../../../../scripts/brand/fonts/Noto-OFL.txt",
+      "../../../../../../../scripts/brand/fonts/NotoEmoji.ttf",
+      "../../../../../../../scripts/brand/fonts/NotoSansArabic-OFL.txt",
+      "../../../../../../../scripts/brand/fonts/NotoSansArabic.ttf",
+      "../../../../../../../scripts/brand/fonts/NotoSansKR-OFL.txt",
+      "../../../../../../../scripts/brand/fonts/NotoSansKR.ttf",
+      "../../../../../../../scripts/brand/fonts/NotoSansSC-OFL.txt",
+      "../../../../../../../scripts/brand/fonts/NotoSansSC.ttf",
+      "../../../../../../../scripts/brand/fonts/provenance.json"
+    ],
+    "envPaths": []
+  }
+}

@@ -1,0 +1,18 @@
+SiteInsights
+
+RESET YOUR PASSWORD
+
+We received a request to reset the password for your SiteInsights account ({{ .Email }}). Continue to choose a new one.
+
+Choose a new password:
+{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=recovery&next={{ .RedirectTo }}
+
+Security note: If you didn't ask to reset your password, ignore this email — your password stays the same. Never share this link. SiteInsights will never ask for your password by email.
+
+—
+SiteInsights · AI-Powered Website Auditing
+A TalhaImtiazWorks Product
+Find website issues. Understand them. Fix them.
+© 2026 TalhaImtiazWorks. SiteInsights is a TalhaImtiazWorks product.
+{{ .SiteURL }}
+You received this email because of an action on your SiteInsights account.

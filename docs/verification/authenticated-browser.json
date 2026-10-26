@@ -1,0 +1,651 @@
+{
+  "steps": [
+    {
+      "name": "anonymous direct initiation, execution, rerun, data and export APIs refuse access",
+      "ok": true,
+      "ms": 811
+    },
+    {
+      "name": "real pending session state uses the official logo and honors reduced motion",
+      "ok": true,
+      "ms": 934
+    },
+    {
+      "name": "auth failure clears branded busy state and duplicate submits stay blocked",
+      "ok": true,
+      "ms": 1329
+    },
+    {
+      "name": "real signup, captured confirmation and explicit confirmation preserve return destination",
+      "ok": true,
+      "ms": 3291
+    },
+    {
+      "name": "explicit audit submission is account-owned, locked and reaches a real report",
+      "ok": true,
+      "ms": 3742
+    },
+    {
+      "name": "actual branded PDF download has visible loading, no duplicate request and clean completion",
+      "ok": true,
+      "ms": 902
+    },
+    {
+      "name": "authenticated screens load responsively in both themes and collect axe evidence",
+      "ok": true,
+      "ms": 124833
+    },
+    {
+      "name": "second verified account cannot read, run or export the owner's audit, even with a legacy key",
+      "ok": true,
+      "ms": 896
+    },
+    {
+      "name": "invalid and, when configured, validly signed expired sessions fail closed",
+      "ok": true,
+      "ms": 142
+    },
+    {
+      "name": "real logout denies subsequent requests; login reopens the account report without executing another audit",
+      "ok": true,
+      "ms": 6770
+    },
+    {
+      "name": "complete accessibility matrix has no detected WCAG A/AA violations",
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "name": "delete isolated verification account",
+      "ok": true,
+      "status": 200
+    },
+    {
+      "name": "delete isolated verification account",
+      "ok": true,
+      "status": 200
+    }
+  ],
+  "accessibility": [
+    {
+      "label": "real report light desktop",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /dashboard",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /dashboard/audits",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /audit/new",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /settings/ai",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /account/profile",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /account/security",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /account/connections",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /account/usage",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /account/appearance",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /account/organizations",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /account/delete",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /scans/fd95eae9-864d-4697-9e22-6621daa4de69",
+      "violations": []
+    },
+    {
+      "label": "light 1440px /scans/fd95eae9-864d-4697-9e22-6621daa4de69/issues/f_6076904b66395847ae90",
+      "violations": []
+    },
+    {
+      "label": "light 375px /dashboard",
+      "violations": []
+    },
+    {
+      "label": "light 375px /dashboard/audits",
+      "violations": []
+    },
+    {
+      "label": "light 375px /audit/new",
+      "violations": []
+    },
+    {
+      "label": "light 375px /settings/ai",
+      "violations": []
+    },
+    {
+      "label": "light 375px /account/profile",
+      "violations": []
+    },
+    {
+      "label": "light 375px /account/security",
+      "violations": []
+    },
+    {
+      "label": "light 375px /account/connections",
+      "violations": []
+    },
+    {
+      "label": "light 375px /account/usage",
+      "violations": []
+    },
+    {
+      "label": "light 375px /account/appearance",
+      "violations": []
+    },
+    {
+      "label": "light 375px /account/organizations",
+      "violations": []
+    },
+    {
+      "label": "light 375px /account/delete",
+      "violations": []
+    },
+    {
+      "label": "light 375px /scans/fd95eae9-864d-4697-9e22-6621daa4de69",
+      "violations": []
+    },
+    {
+      "label": "light 375px /scans/fd95eae9-864d-4697-9e22-6621daa4de69/issues/f_6076904b66395847ae90",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /dashboard",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /dashboard/audits",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /audit/new",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /settings/ai",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /account/profile",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /account/security",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /account/connections",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /account/usage",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /account/appearance",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /account/organizations",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /account/delete",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /scans/fd95eae9-864d-4697-9e22-6621daa4de69",
+      "violations": []
+    },
+    {
+      "label": "dark 1440px /scans/fd95eae9-864d-4697-9e22-6621daa4de69/issues/f_6076904b66395847ae90",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /dashboard",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /dashboard/audits",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /audit/new",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /settings/ai",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /account/profile",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /account/security",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /account/connections",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /account/usage",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /account/appearance",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /account/organizations",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /account/delete",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /scans/fd95eae9-864d-4697-9e22-6621daa4de69",
+      "violations": []
+    },
+    {
+      "label": "dark 375px /scans/fd95eae9-864d-4697-9e22-6621daa4de69/issues/f_6076904b66395847ae90",
+      "violations": []
+    },
+    {
+      "label": "dark 320px /audit/new",
+      "violations": []
+    },
+    {
+      "label": "dark 320px /dashboard/audits",
+      "violations": []
+    },
+    {
+      "label": "dark 320px /account/profile",
+      "violations": []
+    },
+    {
+      "label": "dark 320px /scans/fd95eae9-864d-4697-9e22-6621daa4de69",
+      "violations": []
+    }
+  ],
+  "layouts": [
+    {
+      "label": "real report light desktop",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /dashboard",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /dashboard/audits",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /audit/new",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /settings/ai",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /account/profile",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /account/security",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /account/connections",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /account/usage",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /account/appearance",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /account/organizations",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /account/delete",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /scans/fd95eae9-864d-4697-9e22-6621daa4de69",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 1440px /scans/fd95eae9-864d-4697-9e22-6621daa4de69/issues/f_6076904b66395847ae90",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "light 375px /dashboard",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /dashboard/audits",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /audit/new",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /settings/ai",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /account/profile",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /account/security",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /account/connections",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /account/usage",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /account/appearance",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /account/organizations",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /account/delete",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /scans/fd95eae9-864d-4697-9e22-6621daa4de69",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "light 375px /scans/fd95eae9-864d-4697-9e22-6621daa4de69/issues/f_6076904b66395847ae90",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 1440px /dashboard",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /dashboard/audits",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /audit/new",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /settings/ai",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /account/profile",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /account/security",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /account/connections",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /account/usage",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /account/appearance",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /account/organizations",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /account/delete",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /scans/fd95eae9-864d-4697-9e22-6621daa4de69",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 1440px /scans/fd95eae9-864d-4697-9e22-6621daa4de69/issues/f_6076904b66395847ae90",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "dark 375px /dashboard",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /dashboard/audits",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /audit/new",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /settings/ai",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /account/profile",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /account/security",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /account/connections",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /account/usage",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /account/appearance",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /account/organizations",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /account/delete",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /scans/fd95eae9-864d-4697-9e22-6621daa4de69",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 375px /scans/fd95eae9-864d-4697-9e22-6621daa4de69/issues/f_6076904b66395847ae90",
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "label": "dark 320px /audit/new",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "label": "dark 320px /dashboard/audits",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "label": "dark 320px /account/profile",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "label": "dark 320px /scans/fd95eae9-864d-4697-9e22-6621daa4de69",
+      "width": 320,
+      "scroll": 320
+    }
+  ],
+  "pageErrors": [],
+  "expiry": "validly signed expired local-provider session + unusable refresh token refused",
+  "audit": {
+    "id": "fd95eae9-864d-4697-9e22-6621daa4de69",
+    "target": "https://example.com/",
+    "status": "completed",
+    "summary": {
+      "scores": {
+        "seo": 80,
+        "links": null,
+        "browser": null,
+        "security": 100,
+        "performance": null,
+        "indexability": 91,
+        "accessibility": 100
+      },
+      "coverage": {
+        "browser": {
+          "failed": 0,
+          "attempted": 0,
+          "requested": 0,
+          "succeeded": 0,
+          "skippedReason": "Browser rendering is not enabled for this audit."
+        },
+        "performance": {
+          "url": "https://example.com/",
+          "runs": [],
+          "skippedReason": "Performance testing is not enabled for this audit."
+        },
+        "accessibility": {
+          "pages": 0,
+          "engine": null,
+          "skippedReason": "Accessibility testing in the browser is not enabled for this audit."
+        }
+      },
+      "htmlPages": 1,
+      "durationMs": 665,
+      "brokenLinks": 0,
+      "linksChecked": 0,
+      "pagesScanned": 1,
+      "robotsStatus": "not_found",
+      "sitemapStatus": "not_found",
+      "totalFindings": 7,
+      "crawlTruncated": false,
+      "inconclusiveLinks": 0,
+      "findingsByCategory": {
+        "seo": 4,
+        "links": 0,
+        "browser": 0,
+        "security": 0,
+        "performance": 0,
+        "indexability": 3,
+        "accessibility": 0
+      },
+      "findingsBySeverity": {
+        "low": 5,
+        "high": 0,
+        "info": 0,
+        "medium": 2,
+        "critical": 0
+      },
+      "scoreFormulaVersion": "v2"
+    },
+    "pdfBytes": 298519
+  }
+}
